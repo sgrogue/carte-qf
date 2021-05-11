@@ -1,0 +1,53 @@
+body{
+    background: url(image/fond1.png) fixed center no-repeat ;
+}
+
+.imageflottante{
+    float: left;
+    margin: 5px;
+}
+
+img{
+    border: 0.5px white solid;
+    box-shadow: 3px 3px 0px black;
+}
+
+h1{
+    color : blue;
+}
+
+h4{
+    text-decoration: underline;
+}
+
+.suite{
+    clear: both;
+}
+
+.liste1{
+    list-style: square;
+
+}
+
+.liste2{
+    list-style: none;
+}
+
+div{
+    border-bottom: 1px dotted skyblue;
+ }
+
+/*permet de changer la couleur et l'apparence du lien quand on passe dessus */
+a:hover 
+{
+   text-decoration: underline;
+   color: green;
+   font-style: italic;
+}
+
+a:visited
+{
+    color:blueviolet
+}
+
+
